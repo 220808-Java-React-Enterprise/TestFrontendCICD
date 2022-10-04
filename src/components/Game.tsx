@@ -17,6 +17,8 @@ import Overlay from './game/Overlay'
 import InvalidMove from './game/InvalidMove'
 import { URL } from '../utils/ApiConfig'
 
+import '../css/game.css'
+
 const Game = () => {
   const bb: string[] = 
     ( '................' +
